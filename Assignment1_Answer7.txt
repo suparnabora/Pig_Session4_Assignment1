@@ -1,0 +1,14 @@
+Method overloading is an example of Static Polymorphism. 
+
+Yes we can overload a method with the same return type. E.g. we can have two functions with the same name  add() with different no of parameters but which have the same return type. 
+
+function add(int a, int b)
+{
+	return(a + b);
+}
+
+
+function add(int a, int b, int c)
+{
+	return(a + b + c);
+}
